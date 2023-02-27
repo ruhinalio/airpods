@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css is here -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>AirPods</title>
+    </head>
+    <body>
+        <!-- hader -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <a href="#" class="nav__logo">AirPods</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Başlıq</a></li>
+                        <li class="nav__item"><a href="#l-section" class="nav__link">Haqqında</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__actions">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <img src="assets/icons/bx-chevron-down.svg" alt="">
+                    </div>
+                    <a href="#" class="nav__btn">Satış</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- home side is here -->
+        <main class="l-main bd-grid">
+            <section class="home">
+                <div class="home__data">
+                    <h1 class="home__title">AirPods</h1>
+                    <p class="home__description">AirPods dünyaca məhşur şirkət olan Apple təəərəfindən yaranmış və günümüzdə yüksək keyfiyyəti, o cümlədən dəyərliliyi ilə seçilən bir aksesuardır. Bu qulaqcıqı isə izə ən sərfəli qiymətə həmdə qarantiya ilə təqdim etmək bizim üçün şərəfdir.</p>
+                </div>
+    
+                <div class="home__img">
+                    <!-- img -->
+                    <img src="assets/img/airpod1.png" alt="" class="airpod1">
+                    <img src="assets/img/airpod2.png" alt="" class="airpod2">
+                </div>
+    
+                <div class="home__scroll">
+                    <span class="home__scroll-text">Məlumat üçün ekarnı aşağı sürüşdürün...</span>
+                    <a href="#l-section"><img src="assets/icons/bx-mouse.svg" alt="" class="home__scroll-icon"></a>
+                </div>
+            </section>
+
+            <!-- airpots haqqinda melumat ucun -->
+            <section class="l-section" id="l-section">
+                <div class="details">
+                    <div class="details__content">
+                        <div class="details__box">
+                            <span class="details__initial">Qutusu ilə birlikdə</span>
+                            <h3 class="details__title">24<span> s</span></h3>
+                            <p class="details__description">saatdan çox<br> istifadə imkanı</p>
+                        </div>
+                        <div class="details__box">
+                            <span class="details__initial">Tək isə</span>
+                            <h3 class="details__title">5<span> s</span></h3>
+                            <p class="details__description">saata qədər<br> istifadə</p>
+                        </div>
+                        <div class="details__box">
+                            <span class="details__initial">Yalnız</span>
+                            <h3 class="details__title">15<span> dəq</span></h3>
+                            <p class="details__description">şarj ilə<br>3 saata qədər<br> musiqi dinləyin</p>
+                        </div>
+                    </div>
+
+                    <div class="details__img">
+                        <img src="assets/img/airpods.png" alt="" class="airpods">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- gsap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+        <!--  timeline -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"></script>
+
+        <!-- scrolmacik -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+        
+        <!-- costum -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
